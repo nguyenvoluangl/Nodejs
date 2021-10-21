@@ -2,6 +2,10 @@ const express = require('express');
 const authRoute = require('./auth.route');
 const luanRoute = require('./luan.route');
 const lopRoute = require('./lop.route');
+const sinhvienRoute = require('./sinhvien.route');
+const apparelSizeRoute = require('./apparelSize.route');
+const productRoute = require('./product.route');
+const productCategoriesRoute = require('./productCategories.route');
 const docsRoute = require('./docs.route');
 const config = require('../../config/config');
 
@@ -19,6 +23,22 @@ const defaultRoutes = [
   {
     path: '/lops',
     route: lopRoute,
+  },
+  {
+    path: '/sinhviens',
+    route: sinhvienRoute,
+  },
+  {
+    path: '/apparelsizes',
+    route: apparelSizeRoute,
+  },
+  {
+    path: '/products',
+    route: productRoute,
+  },
+  {
+    path: '/product_categories',
+    route: productCategoriesRoute,
   },
 ];
 
