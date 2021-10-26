@@ -6,6 +6,7 @@ const sinhvienRoute = require('./sinhvien.route');
 const apparelSizeRoute = require('./apparelSize.route');
 const productRoute = require('./product.route');
 const productCategoriesRoute = require('./productCategories.route');
+const blogRoute = require('./blog.route');
 const docsRoute = require('./docs.route');
 const config = require('../../config/config');
 
@@ -39,6 +40,10 @@ const defaultRoutes = [
   {
     path: '/product_categories',
     route: productCategoriesRoute,
+  },
+  {
+    path: '/blogs',
+    route: blogRoute,
   },
 ];
 

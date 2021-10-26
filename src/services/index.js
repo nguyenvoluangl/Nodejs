@@ -8,3 +8,5 @@ module.exports.sinhvienService = require('./sinhvien.service');
 module.exports.apparelSizeService = require('./apparelSize.service');
 module.exports.productService = require('./product.service');
 module.exports.productCategoriesService = require('./productCategories.service');
+module.exports.blogService = require('./blog.service');
+
